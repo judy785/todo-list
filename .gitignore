@@ -1,0 +1,19 @@
+# Logs and caches
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Editor directories
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+Thumbs.db
+.DS_Store
