@@ -22,7 +22,7 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="header">
       <div className="header-top">
-        <h1 className="header-title">나의 할 일</h1>
+        <h1 className="header-title">꼭 해야 할 일</h1>
         <time className="header-date" dateTime={new Date().toISOString().split('T')[0]}>
           {todayString}
         </time>
